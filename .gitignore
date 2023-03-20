@@ -1,0 +1,5 @@
+#IDEs
+.idea
+
+# Output files
+fyne-cross

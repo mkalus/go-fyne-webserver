@@ -1,0 +1,6 @@
+[Details]
+  Icon = "Icon.png"
+  Name = "GoFyneWebserver"
+  ID = "com.github.go-fyne-webserver"
+  Version = "1.0.0"
+  Build = 10
