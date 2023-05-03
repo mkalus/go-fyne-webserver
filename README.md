@@ -28,7 +28,7 @@ Build for different platforms:
 
 ```shell
 fyne-cross windows -arch=amd64,386
-fyne-cross darwin -arch=amd64,arm54
+fyne-cross darwin -arch=amd64,arm64 -macosx-sdk-path=$HOME/SDKs/MacOSX.sdk
 fyne-cross linux -arch=amd64,386,arm64,arm
 ```
 
