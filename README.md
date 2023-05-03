@@ -2,12 +2,14 @@
 
 This is a simple static webserver with a GUI frontend to start and stop it. It is useful if you have a static website
 to share with your customer and he or she does not have a webserver at hand. Just create a zip, with Go Fyne Webserver
-in the root directory. Create a `static` folder which contains your static website. Run the binary and you will see
-a window.
+in the root directory. Create a `static` or `dist` folder which contains your static website. Run the binary and you
+will see a window.
 
 ![Ubuntu](doc/FyneUbuntu.png)
 
 Press "Start Web Server" to start the server and point your browser to [http://localhost:8080/](http://localhost:8080/).
+
+Go Fyne Webserver will try to determine the subfolder automatically, but you can also choose any folder on your drive. 
 
 
 ## Building
